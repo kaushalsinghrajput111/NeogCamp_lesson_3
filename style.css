@@ -3,11 +3,19 @@
   --primary-background-color: #818cf8;
   --primary-color: #eef2ff;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
 hr {
   margin: 2rem 0rem;
+}
+h3,h2{
+    margin: 20px 0px;
 }
 /* container */
 .container {
@@ -51,6 +59,7 @@ hr {
 }
 .nav-brand {
   font-weight: bold;
+  margin-bottom: 50px;
 }
 .navigation .link {
   color: var(--primary-color);
@@ -82,4 +91,17 @@ hr {
 }
 .ow{
 background-color: var(--primary-color);
+}
+.footer{
+    background-color: var(--primary-background-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    border-top-right-radius:1rem ;
+}
+.footer .link{
+    color: var(--primary-color);
+}
+.footer-header{
+    margin-bottom: 20px;
 }
