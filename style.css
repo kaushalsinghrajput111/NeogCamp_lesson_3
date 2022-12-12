@@ -65,3 +65,14 @@ padding: 1rem 0.5rem;
 .navigation .link-active{
     font-weight: bold;
 }
+/* header */
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+   margin: auto;
+}
+/* section */
